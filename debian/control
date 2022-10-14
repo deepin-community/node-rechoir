@@ -1,0 +1,28 @@
+Source: node-rechoir
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+ , node-expect <!nocheck>
+ , node-debbundle-es-to-primitive <!nocheck>
+ , node-isarray <!nocheck>
+ , node-object-inspect <!nocheck>
+ , node-resolve <!nocheck>
+ , node-tmatch <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-rechoir
+Vcs-Git: https://salsa.debian.org/js-team/node-rechoir.git
+Homepage: https://github.com/tkellen/node-rechoir
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-rechoir
+Architecture: all
+Depends: ${misc:Depends}
+ , node-resolve
+Description: Node module to require any supported file as a node module
+ rechoir , in conjunction with [interpret]-like objects, can register any
+ filetype the npm ecosystem has a module loader for.

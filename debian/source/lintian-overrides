@@ -1,0 +1,4 @@
+# Test data
+source-is-missing debian/tests/test_modules/expect/lib/Expectation.js
+source-contains-prebuilt-javascript-object debian/tests/test_modules/expect/lib/Expectation.js
+very-long-line-length-in-source-file debian/tests/test_modules/expect/lib/Expectation.js line 9 is 564 characters long (>512)
