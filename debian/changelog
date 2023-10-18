@@ -1,3 +1,18 @@
+node-rechoir (0.8.0+~0.6.1-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Repository-Browse.
+  * Update standards version to 4.6.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 21 Nov 2022 12:18:41 +0000
+
+node-rechoir (0.8.0+~0.6.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Embed typescript declarations and repack
+
+ -- Yadd <yadd@debian.org>  Sun, 09 Jan 2022 08:03:10 +0100
+
 node-rechoir (0.8.0-1) unstable; urgency=medium
 
   * Team upload
